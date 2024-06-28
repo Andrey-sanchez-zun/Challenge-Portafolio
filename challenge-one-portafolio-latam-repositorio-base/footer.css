@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(3, 3, 86);
+    opacity: 80%;
+    flex-grow: 1;
+    
+}
+
+.footer__rodape{
+    font-size: 18px;
+    color: #3db818;
+}
+
+@media (min-width:1040px){
+    .footer__rodape{
+        font-size: 21px;
+        flex-grow: 1;
+     
+    
+    }   
+}
+
+@media (min-width:1420px){
+    .footer__rodape{
+        font-size: 22px;
+        flex-grow: 1;
+       
+    }
+}

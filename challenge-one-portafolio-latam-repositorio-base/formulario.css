@@ -1,0 +1,183 @@
+.formcontato__contacto {
+    font-size: 18px;
+    background-color: rgb(230, 230, 215);
+    opacity: 100%;
+    width: 90vw;
+    padding: 10px 0 10px 20px;
+}
+
+.formcontato_esquerda{
+    display: none;
+}
+
+.formcontato__title {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 0 10px 0;
+}
+
+.formcontato__subtext{
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.formulario__espacio {
+    width: 70%;
+    margin-bottom: 1em;
+    border: none;
+}
+
+
+.campo__completo {
+    display: block; 
+    border-radius: 15px;
+    width: 100%;
+    padding: 1em;
+    margin-top: .5em;
+    color: rgb(49, 19, 138);
+    border: none;
+
+}
+
+#mensaje{
+    margin-top: 10px;
+    width: 113%;
+    border-radius: 5px;
+    color: rgb(49, 19, 138);
+    border:none;
+}
+
+
+.terminos__text {
+    line-height: 10px;
+    display: inline;
+    border: none;
+}
+
+.formulario__terminos{
+    border: none;
+}
+
+
+.formcontato__botao {
+    background: #2A7AE4;
+    margin: 1em auto;
+    display: block;
+    border: none;
+    padding: 1em 4em;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color:  white;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #4b56d3;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+}
+
+.slide_right:hover {
+    box-shadow: inset 400px 0 0 0 #39b87f;
+  }
+
+.mensaje-error {
+    display: block;
+    margin-top: 5px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1rem;
+    color: rgb(57, 12, 147);
+}
+
+
+@media (min-width:768px){
+    .formcontato__contacto{
+        font-size: 1.3em;
+    }
+
+    .formcontato__title{
+        font-size: 26px;
+    }
+
+    .formulario__espacio {
+        width: 90%;
+    }
+
+    #mensaje{
+        width: 106%;
+    }
+
+    .formcontato__botao{
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width:1040px){
+    .formcontato__contacto{
+        width: 90vw;
+        display: flex;
+        flex-direction: row;
+        font-size: 1.4em;
+    }
+
+    .formcontato_esquerda{
+        display: block;
+        width: auto;
+        margin: 10px 15px;
+        padding: 0 10px 30px 10px;
+        display: flex;
+        align-content: center;
+       
+    }
+    
+    .formcontato__img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .formcontato__title{
+        font-size: 28px;
+        font-weight: 700;
+        text-align: left;
+        padding: 30px 0 10px 0;
+    }
+    
+    .formcontato__subtext{
+        margin-bottom: 30px;
+    }
+
+    #mensaje{
+        width: 108%;
+    }
+
+    .formcontato__botao{
+        font-size: 24px;
+    }
+}
+
+@media (min-width:1420px){
+    .formcontato__contacto{
+        width: 94vw;
+        font-size: 1.6em;
+    }
+
+    .formcontato__title{
+        font-size: 34px;
+    }
+
+    .formcontato__subtext{
+        font-size: 28px;
+        padding: 0 15px 0 0;
+    }
+
+    #mensaje{
+        width: 105%;
+    }
+
+    .formulario__terminos{
+        padding: 0 20px;
+    }
+}

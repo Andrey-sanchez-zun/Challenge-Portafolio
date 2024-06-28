@@ -1,0 +1,52 @@
+
+.about__container{
+    background-color: rgb(3, 3, 86);
+    opacity: 80%;
+    font-size: 14px;
+    text-align: left;
+    padding: 20px 25px 20px 15px;
+    justify-content: space-between;
+    line-height: 1.2;
+   
+}
+
+.about__title {
+    font-size: 1.3em;
+    font-weight: 700;
+    padding: 0 0 15px 0;
+    color:  #3db818;
+}
+
+.about__paragraph{
+    gap: 10px;
+    color: white;
+}
+
+@media (min-width:768px){
+    .about__container{
+        gap: 30px;
+        text-align: justify;
+        padding: 55px;
+        font-size: 1.1em;
+        flex-grow: 1;
+    }
+}
+
+
+@media (min-width:1040px){
+    .about__container{
+        width: 90vw;
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width:1420px){
+    .about__container{
+        width: 94vw;
+        font-size: 1.4em;
+    }
+
+    .about__title{
+        font-size: 34px;
+    }
+}

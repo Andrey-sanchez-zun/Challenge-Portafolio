@@ -1,0 +1,35 @@
+@import url("styles/reset.css");
+@import url("styles/header.css");
+@import url("styles/title.css");
+@import url("styles/about.css");
+@import url("styles/skills.css");
+@import url("styles/formacion academica.css");
+@import url("styles/experiencia profesional.css");
+@import url("styles/hobbies.css");
+@import url("styles/formcontacto.css");
+@import url("styles/footer.css");
+@import url("styles/formulario.css");
+
+
+
+.body {
+    background: url(assets/stard.jpg) no-repeat center center fixed ;
+    background-size: cover;
+    line-height: 1.3;
+    font-family: "Quicksand", Verdana;
+    color: rgb(225, 227, 229);
+    overflow-x: hidden; 
+    flex-grow: 1;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+
+
+
+

@@ -1,0 +1,63 @@
+
+.header {
+ 
+    height: 300px;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: right;
+    flex-grow: 1;
+    
+}
+
+.menu__list{
+   
+    display: none;
+    
+}
+
+.menu_list_item_contacto {
+    font-weight: bold;
+    font-size: .90em;
+
+}
+
+
+/* Fulana de Tal Elimine la estrella con mi nombre, pues consideré que no tenia mucha estética y ya estaba representado mi nombre
+*/
+
+@media (min-width:768px){
+    .menu_list_item_contacto{
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1024px) {
+    header{
+        padding: 20px 80px;
+    }
+
+    .menu__list {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        font-size: 19px;
+    }
+
+    .menu__list li c {
+        font-weight: bold;
+    }
+
+    .menu_list_item_contacto {
+        display: none;
+        font-size: 19px;
+    }
+}
+
+@media (min-width:1420px){
+    .menu__list{
+     margin-top: 25px;
+     font-size: 1.4em;
+     justify-content: center;
+    }
+         
+}
